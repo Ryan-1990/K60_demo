@@ -45,19 +45,19 @@ void uart_init (UARTn uratn, u32 baud)
             PORTA_PCR15 = PORT_PCR_MUX(0x3);     //在PTA15上使能UART0_RXD
         else if(UART0_RX==PTB16)
             PORTB_PCR16 = PORT_PCR_MUX(0x3);     //在PTB16上使能UART0_RXD
-        else if(UART0_RX==PTD7)
-            PORTD_PCR7 = PORT_PCR_MUX(0x3);      //在PTD7上使能UART0_RXD
+        else if(UART0_RX==PTD6)
+            PORTD_PCR6 = PORT_PCR_MUX(0x3);      //在PTD6上使能UART0_RXD
         else
             assert_failed(__FILE__, __LINE__);   //设置管脚有误？
 
         if(UART0_TX==PTA2)
-            PORTA_PCR2 = PORT_PCR_MUX(0x2);     //在PTA2上使能UART0_RXD
+            PORTA_PCR2 = PORT_PCR_MUX(0x2);     //在PTA2上使能UART0_TXD
         else if(UART0_TX==PTA14)
-            PORTA_PCR14 = PORT_PCR_MUX(0x3);     //在PTA14上使能UART0_RXD
+            PORTA_PCR14 = PORT_PCR_MUX(0x3);     //在PTA14上使能UART0_TXD
         else if(UART0_TX==PTB17)
-            PORTB_PCR17 = PORT_PCR_MUX(0x3);     //在PTB17上使能UART0_RXD
-        else if(UART0_TX==PTD6)
-            PORTD_PCR6 = PORT_PCR_MUX(0x3);     //在PTD6上使能UART0_RXD
+            PORTB_PCR17 = PORT_PCR_MUX(0x3);     //在PTB17上使能UART0_TXD
+        else if(UART0_TX==PTD7)
+            PORTD_PCR7 = PORT_PCR_MUX(0x3);     //在PTD7上使能UART0_TXD
         else
             assert_failed(__FILE__, __LINE__);  //设置管脚有误？
 
