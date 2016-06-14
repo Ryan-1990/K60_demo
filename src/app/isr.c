@@ -14,6 +14,44 @@ extern u8 Screen_Cut;
 /*************************************************************************
 *                             野火嵌入式开发工作室
 *
+*  函数名称：USART0_IRQHandler
+*  功能说明：串口0 中断 接收 服务函数
+*  参数说明：无
+*  函数返回：无
+*  修改时间：2012-2-14    已测试
+*  备    注：
+*************************************************************************/
+void USART0_IRQHandler(void)
+{
+  uint8 ch;
+  static Site_t site = {0,8};
+  Size_t size = {128,128};
+  
+  DisableInterrupts;		    //关总中断
+
+  //接收一个字节数据并回发
+  ch=uart_getchar (UART0);        //接收到一个数据
+  LCD_P6x8Char(site,ch,CYAN,BLACK);
+  site.x+=6;
+  if(site.x>128)
+  {
+    site.x=0;
+    site.y+=8;
+    if(site.y>128)
+    {
+      site.y=0;
+      LCD_rectangle(site,size,BCOLOUR);
+    }
+  }
+  //uart_putchar(UART0,ch);
+  EnableInterrupts;		    //开总中断
+}
+
+
+
+/*************************************************************************
+*                             野火嵌入式开发工作室
+*
 *  函数名称：USART1_IRQHandler
 *  功能说明：串口1 中断 接收 服务函数
 *  参数说明：无

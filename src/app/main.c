@@ -28,7 +28,7 @@ void main()
   LCD_Init();
   LCD_P6x8Str(site,"System Init Success!",YELLOW,BLACK);
   DLY_ms(300);
-  //SendStr (UART1,"This is a test for K60"); 
+  //SendStr (UART0,"This is a test for K60"); 
   if(Ov7725_Init())
   {
     site.y = 8;
