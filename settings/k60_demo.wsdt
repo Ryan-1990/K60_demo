@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>k60_demo/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>190</Column0><Column1>44</Column1><Column2>27</Column2><Column3>0</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>980</ColumnWidth1><ColumnWidth2>261</ColumnWidth2><ColumnWidth3>65</ColumnWidth3></Build>
+      <TerminalIO/>
+    <Debug-Log><ColumnWidth0>24</ColumnWidth0><ColumnWidth1>1303</ColumnWidth1></Debug-Log></Static>
+    <Windows>
+      
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-12342-15947</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>k60_demo</ExpandedNode><ExpandedNode>k60_demo/app</ExpandedNode><ExpandedNode>k60_demo/cpu</ExpandedNode><ExpandedNode>k60_demo/drivers</ExpandedNode><ExpandedNode>k60_demo/header</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-23111-17792</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-18534-1281</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab><Tab><Identity>TabID-25046-30651</Identity><TabName>Breakpoints</TabName><Factory>Breakpoints</Factory></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\app\main.c</Filename><XPos>1</XPos><YPos>0</YPos><SelStart>441</SelStart><SelEnd>441</SelEnd></Tab><ActiveTab>0</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\app\isr.c</Filename><XPos>0</XPos><YPos>165</YPos><SelStart>6391</SelStart><SelEnd>6391</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\app\isr.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>883</SelStart><SelEnd>883</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\uCOS-II\App\app.c</Filename><XPos>0</XPos><YPos>17</YPos><SelStart>1113</SelStart><SelEnd>1113</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\uCOS-II\App\app.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\uCOS-II\App\CFG\app_cfg.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>378</SelStart><SelEnd>378</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\app\Init.c</Filename><XPos>0</XPos><YPos>26</YPos><SelStart>1141</SelStart><SelEnd>1141</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\drivers\NRF24L01\NRF24L01.c</Filename><XPos>0</XPos><YPos>712</YPos><SelStart>12834</SelStart><SelEnd>12834</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-04993770><key>iaridepm.enu1</key></Toolbar-04993770></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>650</Bottom><Right>298</Right><x>-2</x><y>-2</y><xscreen>317</xscreen><yscreen>166</yscreen><sizeHorzCX>221678</sizeHorzCX><sizeHorzCY>201701</sizeHorzCY><sizeVertCX>209790</sizeVertCX><sizeVertCY>792224</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>128</Bottom><Right>1432</Right><x>-2</x><y>-2</y><xscreen>1434</xscreen><yscreen>130</yscreen><sizeHorzCX>1002797</sizeHorzCX><sizeHorzCY>157959</sizeHorzCY><sizeVertCX>221678</sizeVertCX><sizeVertCY>201701</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+
